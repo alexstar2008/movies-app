@@ -1,5 +1,5 @@
 'use strict';
-const Movie = require('../models/Movie');
+const Movie = require('../models/movie');
 
 function getMovies(req, res, next) {
     Movie.find({}, function (err, movies) {
