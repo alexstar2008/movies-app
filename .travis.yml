@@ -5,5 +5,5 @@ deploy:
   provider: heroku
   api_key:
     secure: "e0240da8-4298-4c5e-aae3-43ec635cbad9"
-  app: 
+  app:  
     master: webby-movies-app
