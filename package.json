@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Backend for movies app",
   "main": "app.js",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
   "scripts": {
     "serve": "nodemon app.js",
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Oleksii Starovoitenko",
   "license": "ISC",
