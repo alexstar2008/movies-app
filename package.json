@@ -8,8 +8,8 @@
     "npm": "4.0.5"
   },
   "scripts": {
-    "serve": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "serve": "nodemon app.js"
   },
   "author": "Oleksii Starovoitenko",
   "license": "ISC",
