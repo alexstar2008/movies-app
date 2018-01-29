@@ -8,12 +8,19 @@ Tecnologies: Node + Express + Mongo(Mongoose) + Joi
 
 Folder Structure:
   -controllers (api handlers)
+  
   -models (mongoose models of movie)
+  
   -router (api movie router)
+  
   -config
+  
     -validation (Joi validation scheme for movie)
+    
     -db (db connection)
+    
     -express ( basic app config with necessary middlewares)
+    
     -config (server & db configs)
 
 ## Installation
