@@ -20,7 +20,7 @@ Enjoy:)
 To make intergation with Travis CI find '.travis.yml' in the repository.
 Just change 'api_key' to your own Heroku key while configuraion
 
-## Confuguration
+## Configuration
 
 To change database server:
   Change server 'env' configuration of MONGO_STR to your own connection string
