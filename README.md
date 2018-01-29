@@ -7,6 +7,7 @@ Live API [Heroku]: https://webby-movies-app.herokuapp.com/api/movies/
 Tecnologies: Node + Express + Mongo(Mongoose) + Joi
 
 Folder Structure:
+
   -controllers (api handlers)
   
   -models (mongoose models of movie)
