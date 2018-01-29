@@ -22,7 +22,7 @@ function addMovie(req, res, next) {
         if (err) {
             return next(err);
         }
-        res.send('Movie was saved');
+        res.json('Movie was saved successfully');
     });
 }
 
@@ -32,7 +32,7 @@ function removeMovie(req, res, next) {
         if (err) {
             return next(err);
         }
-        res.send(`Movie ${movie.name} was removed`);
+        res.json(`Movie ${movie.name} was removed successfully`);
     });
 }
 
@@ -51,7 +51,7 @@ function uploadListOfMovies(req, res, next) {
         if (err) {
             return next(err);
         }
-        res.send(`${data.length} movies was inserted`);
+        res.json(`${data.length} movies was inserted successfully `);
     });
 }
 
