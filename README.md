@@ -4,10 +4,6 @@ This is the back-end part of "Movie-app".
 
 Live API [Heroku]: https://webby-movies-app.herokuapp.com/api/movies/
 
-Note:
-  Configure 'cors middleware' at 'config/express' to make some restriction if you need
-  By default: access-control-allow-origin *
-
 ## Installation
 
 1) Clone this repository: git clone https://github.com/alexstar2008/movies-front-app.git
@@ -23,6 +19,15 @@ Enjoy:)
 
 To make intergation with Travis CI find '.travis.yml' in the repository.
 Just change 'api_key' to your own Heroku key while configuraion
+
+## Confuguration
+
+To change database server:
+  Change server 'env' configuration of MONGO_STR to your own connection string
+  
+Note:
+  Configure 'cors middleware' at 'config/express' to make some restriction if you need
+  By default: access-control-allow-origin *
 
 
 ## Deploy to heroku
