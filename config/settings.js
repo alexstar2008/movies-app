@@ -5,7 +5,7 @@ const db = {
 };
 
 const server = {
-    port: process.env.PORT || 3000
+    port: process.env.PORT || 3003
 }
 
 module.exports = { db, server };
