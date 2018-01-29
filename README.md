@@ -4,6 +4,18 @@ This is the back-end part of "Movie-app".
 
 Live API [Heroku]: https://webby-movies-app.herokuapp.com/api/movies/
 
+Tecnologies: Node + Express + Mongo(Mongoose) + Joi
+
+Folder Structure:
+  -controllers (api handlers)
+  -models (mongoose models of movie)
+  -router (api movie router)
+  -config
+    -validation (Joi validation scheme for movie)
+    -db (db connection)
+    -express ( basic app config with necessary middlewares)
+    -config (server & db configs)
+
 ## Installation
 
 1) Clone this repository: git clone https://github.com/alexstar2008/movies-app.git
