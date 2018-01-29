@@ -7,9 +7,9 @@ module.exports = {
             name: Joi.string().required().max(200),
             year: Joi.number().required(),
             format: Joi.string().max(20),
-            actors: [Joi.string()]
+            actors: Joi.array()
         }
-    },
+    },  
     removeMovie: {
         params: {
             id: Joi.string().required()
