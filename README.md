@@ -6,7 +6,7 @@ Live API [Heroku]: https://webby-movies-app.herokuapp.com/api/movies/
 
 ## Installation
 
-1) Clone this repository: git clone https://github.com/alexstar2008/movies-front-app.git
+1) Clone this repository: git clone https://github.com/alexstar2008/movies-app.git
 1) Make sure that you have latest @node and @npm versions
 2) Run "npm install" to install dependencies
 3) Run "npm run serve" to start live-reload app
